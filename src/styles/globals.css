@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -18,4 +18,232 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* ==================================== */
+
+
+.container-fluid {
+  max-width: 1070px;
+  padding: 0px 20px;
+}
+/* .navbar{
+ background-color: rgb(6, 12, 78);
+ 
+} */
+.nav-link{
+ color: rgb(58, 195, 219) !important;
+ 
+}
+.collapse{
+justify-content: space-around;
+}
+.fofana{
+padding-right: 400px;
+}
+.navbar-nav{
+  padding-right: 200px;
+}
+
+
+/* ======================================= */
+.intro {
+  background: #fff8f8;
+  padding: 60px 0 300px;
+   }
+
+
+.main h4{
+  color: rgb(238, 112, 44);
+  font-size: 25px;
+}
+.main h1{
+  font-size: 70px;
+}
+.main p{
+  font-size: 15px;
+}
+
+.sec-padding{
+  padding-top: 150px;
+} 
+.main-btn{
+  width: 20%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(249, 106, 54);
+  text-decoration: none;
+}
+
+.main-btn a{
+  color: aliceblue;
+}
+
+.main-2 img{
+  width: 80%;
+  padding-left: 50px;
+  
+  
+}
+
+/* ================================== */
+
+.contant{
+  border-radius: 15px;
+  padding: 50px 40px;
+  background: #100e0e;
+}
+
+.second h2{
+  color: #fff8f8;
+}
+.second p{
+  color: #fff8f8;
+}
+.colour h2{
+  color: #fff8f8;
+}
+.colour p{
+  color: #fff8f8;
+}
+
+.sec-1 h2{
+  color: #fff8f8;
+
+}
+.sec-1 p{
+  color: #fff8f8;
+}
+.contant{
+  margin-top: 100px;
+}
+
+
+/* ================================== */
+
+
+#main-card-2{
+  background-color: rgb(254, 247, 254);
+}
+
+.main-card h4{
+  text-align: center;
+}
+.main-card h1{
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+.three-1{
+  border: 1px solid;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.three img{
+  margin-top: 50px;
+}
+.three-1 img{
+  margin-top: 50px;
+}
+
+/* =========================== */
+
+
+.comp img{
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.mob img{
+  width: 100%;
+  
+}
+
+/* ===================== */
+
+#cards{
+  background-color: rgb(254, 247, 254);
+  margin-bottom: 50px;
+}
+
+
+.open{
+  border: 1px solid;
+  border: none;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 50px;
+  box-shadow: 20px- 20px- 20px - 20px;
+}
+.open p{
+  font-size: 18px;
+}
+.open h1{
+  font-size: 40px;
+  color: orange;
+}
+.open h4{
+  padding-top: 40px;
+}
+
+.price{
+  width: 40%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(249, 106, 54);
+
+}
+
+.price a{
+  color: white;
+}
+
+.open-1{
+  border: 1px solid;
+  border: none;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(31, 29, 29);
+  padding-left: 50px;
+  box-shadow: 20px- 20px- 20px - 20px;
+
+}
+.open-1 p{
+  color: white;
+}
+.open-1 h1{
+  color: orange;
+}
+.open-1 h4{
+  color: white;
+}
+
+.open-1 h4{
+  padding-top: 40px;
+}
+
+
+/* ======================= */
+
+
+#last{
+  background-color: rgb(241, 218, 221);
+  margin-bottom: 50px;
+} 
+
+.hero{
+  /* margin: auto; */
+  background-color: #ffff;
+  padding: 65px;
+  height: 300px;
+  border-radius: 10px;
+  
 }
