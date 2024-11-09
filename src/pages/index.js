@@ -8,6 +8,7 @@ import Maincard from "@/components/Maincard";
 import Mobile from "@/components/Mobile";
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
     <Maincard/>
     <Mobile/>
     <Footer/>  
+   
 
     
     </>

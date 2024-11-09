@@ -1,35 +1,35 @@
 function Baner(){
     return(
-    <section id="intro">
-    <div className="container">
-        <div className="sec-padding">
-            <div className="row">
-                <div className="col">
-                    <div className="main">
-                        <h4>Hi There, I'm Fofana</h4>
-                        <h1>Full Stack <br/>
-                             Developer</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. <br/>
-                             Ipsa voluptate reiciendis nesciunt sed, commodi aperiam iste rem <br/>
-                              blanditiis dicta impedit sequi. Lorem ipsum dolor, sit amet consectetur adipisicing  <br/>
-                               Illo, ipsa? Atque nam itaque totam? <br/>
-                             Ratione odit, excepturi, numquam a libero maxime aut. Rem?</p>
-                        <button className="main-btn"><a href="">Learn more</a></button>
+        <section id="intro">
+        <div class="container">
+            <div class="sec-padding">
+                <div class="row">
+                    <div class="col">
+                        <div class="main">
+                            <h4>Hi There, I'm Fofana</h4>
+                            <h1>Full <span class="stack"> Stack</span> <br/>
+                                 Developer</h1>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. <br/>
+                             Ipsa voluptate reiciendis nesciunt sed, commodi aperiam iste <br/>
+                              rem blanditiis dicta impedit sequi. Ratione odit, excepturi, <br/>
+                               numquam a libero maxime aut. Rem?</p>
+                            <button class="main-btn"><a href="">Learn more</a></button>
+                            <button class="baner-btn"><a href="">see our work</a></button>
 
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="main-2">
+                            <img src="./images/dev img.png" alt=""/>
+
+                        </div>
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className="main-2">
-                        <img src="./image/personmale1.png" alt=""/>
-
-                    </div>
-                </div>
             </div>
-
         </div>
-    </div>
-  </section>
+      </section>
 
     );
 }

@@ -1,44 +1,73 @@
 function Colour(){
    return(
     <section>
-    <div className="container">
-      <div className="contant">
-        <div className="sec-padding-1">
-            <div className="row">
-                <div className="col">
-                    <div className="second">
-                        <h2>Fast learn</h2>
-                        <p>orem ipsum dolor, sit amet consectetur adipisicing, elit. <br/>
-                           Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
-                    </div>
-                    <div className="colour">
-                      <h2>Creative</h2>
-                        <p>orem ipsum dolor, sit amet consectetur adipisicing, elit. <br/>
-                           Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
-                    </div>
+        <div class="container">
+          <div class="contant">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="contant-box">
+                  <i class="fa-brands fa-instagram"></i>
+                  <div class="text">
+                    <h5>Fast Learn</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing, <br/>
+                       elit. Dolorem natus esse ullam exercitationem <br/>
+                        soluta ad! Assumenda eum</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="contant-box">
+                  <div class="icon">
+                    <i class="fa-brands fa-youtube"></i>
                     
-                </div>
-                <div className="col">
-                  <div className="sec-1">
-                    <h2>Friendly support</h2>
-                        <p>orem ipsum dolor, sit amet consectetur adipisicing, elit. <br/>
-                           Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
-
+                    <div class="text">
+                      <h5>Fast Learn</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing, <br/>
+                         elit. Dolorem natus esse ullam exercitationem <br/>
+                          soluta ad! Assumenda eum</p>
+                    </div>
                   </div>
-                  <div className="colour">
-                    <h2>Work hard</h2>
-                        <p>orem ipsum dolor, sit amet consectetur adipisicing, elit. <br/>
-                           Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
-                  </div>
-
+                  
                 </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="contant-box">
+                    <div class="icon"></div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <div class="text">
+                      <h5>Fast Learn</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing, <br/>
+                         elit. Dolorem natus esse ullam exercitationem <br/>
+                          soluta ad! Assumenda eum</p>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="contant-box">
+                    <div class="icon"></div>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <div class="text">
+                      <h5>Fast Learn</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing, <br/>
+                         elit. Dolorem natus esse ullam exercitationem <br/>
+                          soluta ad! Assumenda eum</p>
+
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
             </div>
           </div>
         </div>
-    </div>
-  </section>
-
-
+      </section>
+ 
    );
 }
 

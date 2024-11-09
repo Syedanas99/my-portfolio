@@ -1,21 +1,34 @@
 function Mobile(){
   return(
     <>
-    
-    <section>
-                  <div className="container">
-                    <div className="sec-padding">
-                      <div className="row">
-                        <div className="col">
-                          <div className="mob">
+                <section>
+                  <div class="container">
+                    <div class="sec-padding-2">
+                      <div class="row">
+                        <div class="col">
+                          <div class="mob-10">
                             <img src="./images/anus code.jpg" alt=""/>
+
+                            <div class="shadow">
+                              <h1>AI Programing</h1>
+                              <p>Lorem ipsum dolor sit amet, <br/>
+                                 consectetur adipisicing</p>
+        
+                            </div>
                           </div>
                         </div>
 
 
-                        <div className="col">
-                          <div className="mob">
-                            <img src="./images/image photo.jpg" alt=""/>
+                        <div class="col">
+                          <div class="mob">
+                            <img src="./images/portfolio1 (1).jpg" alt=""/>
+
+                            <div class="shadow">
+                              <h1>Creative Design</h1>
+                              <p>Lorem ipsum dolor sit amet, <br/>
+                                 consectetur adipisicing</p>
+        
+                            </div>
                           </div>
                         </div>
 
